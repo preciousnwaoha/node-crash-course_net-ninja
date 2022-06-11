@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/preciousnwaoha/node-crash-course_net-ninja#readme",
   "dependencies": {
+    "express": "^4.18.1",
     "lodash": "^4.17.21"
   }
 }

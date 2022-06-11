@@ -13,8 +13,6 @@ const server = http.createServer((req, res) => {
     });
 
     greet();
-    greet();
-    greet();
 
     // set header content type
     res.setHeader('Content-Type', 'text/html');
@@ -54,6 +52,7 @@ const server = http.createServer((req, res) => {
 
 });
 
+// listen for requests
 server.listen(3000, 'localhost', () => {
     console.log('listening for requests on port 3000');
 })
