@@ -1,4 +1,1 @@
-# MongoDB
-
-## MongoDB Atlas
-## Mongoose, Models & Schemas
+# Get Post and Delete Requests

@@ -12,8 +12,8 @@
       text-decoration: none;
       color: #222;
     }
-    /* nav & footer styles */
 
+    /* nav & footer styles */
     nav{
       display: flex;
       justify-content: space-between;
@@ -53,8 +53,37 @@
     .content{
       margin-left: 20px;
     }
+
     /* index styles */
+    .blogs a {
+      display: block;
+      margin: 40px 0;
+      padding-left: 30px;
+      border-left: 6px solid mediumseagreen;
+    }
+
+    .blogs a:hover h3 {
+      color: mediumseagreen;
+    }
     /* details styles */
+    .details {
+      position: relative;
+    }
+
+    .delete {
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-radius: 50%;
+      padding: 8px;
+    }
+
+    .delete:hover {
+      cursor: pointer;
+      box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    }
+
+
     /* create styles */
     .create-blog form{
       max-width: 400px;
